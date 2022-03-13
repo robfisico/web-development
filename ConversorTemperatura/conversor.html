@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Conversor</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+        Conversor de temperaturas - Celsius para Fahrenheit
+      </h1>
+      <p class="page-subtitle">
+        Descubra quais os valores de temperaturas correspontes entre as escalas
+        termométricas
+      </p>
+      <img
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+        class="page-logo"
+        alt=""
+      />
+      <div id="conversao">
+        <label for="temperatura">Insira a temperatura</label><br />
+        <input type="number" id="temperature" size="2" /><br />
+        <button type="submit" onclick="Converter()">Converter</button>
+      </div>
+      <div id="resultado">
+        <label for="resultado">Valor convertido</label><br />
+        <input type="number" id="resultado" size="2" /><br />
+      </div>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img
+        src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+        alt=""
+        class="alura-logo"
+      />
+    </a>
+    <script type = "text/javascript" src="conversor.js"></script>
+  </body>
+</html>
